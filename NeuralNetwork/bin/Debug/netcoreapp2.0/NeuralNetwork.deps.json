@@ -1,0 +1,83 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "118e26bc6133bc221c48d24f2ce7fbe9b0fa75bb"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "NeuralNetwork/1.0.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Math.Noncommercial": "3.8.0",
+          "MathNet.Numerics": "4.7.0"
+        },
+        "runtime": {
+          "NeuralNetwork.dll": {}
+        }
+      },
+      "Accord/3.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/Accord.dll": {}
+        }
+      },
+      "Accord.Math/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Math.Core.dll": {},
+          "lib/netstandard2.0/Accord.Math.dll": {}
+        }
+      },
+      "Accord.Math.Noncommercial/3.8.0": {
+        "dependencies": {
+          "Accord.Math": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Math.Noncommercial.dll": {}
+        }
+      },
+      "MathNet.Numerics/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NeuralNetwork/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accord/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+eVNmmLXTL5HZZ3zcWggQtK+cMs6FhCKimUQ35MkywRcFhXangpQdYvO0bAx9XkcqtyEHRO0xBSqNxoehCMeXw==",
+      "path": "accord/3.8.0",
+      "hashPath": "accord.3.8.0.nupkg.sha512"
+    },
+    "Accord.Math/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MFkgZzUxArkE3s9Np8oZwuMCWiAiaur/Mr6ePrlc1Jjizf8BgIKab5TobrPw97cUSPF0RjbZZ4s8N2lhjqqLeg==",
+      "path": "accord.math/3.8.0",
+      "hashPath": "accord.math.3.8.0.nupkg.sha512"
+    },
+    "Accord.Math.Noncommercial/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rBD6E1KK6TJFfLRrl2HrQG7UGUwNh/99/9LHGQWYsjlouUjToiFL7zkO/siqfDKsaG4nbP+9sHX8GDMRVvbBPg==",
+      "path": "accord.math.noncommercial/3.8.0",
+      "hashPath": "accord.math.noncommercial.3.8.0.nupkg.sha512"
+    },
+    "MathNet.Numerics/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xuqSpkRhJeCh0Z6DM5ikKjp+GwMvarmMfejeqfwo1c7flaZlj25OgQTRO1no8Gf0NJRd9qnighupRcl1iUmGfg==",
+      "path": "mathnet.numerics/4.7.0",
+      "hashPath": "mathnet.numerics.4.7.0.nupkg.sha512"
+    }
+  }
+}

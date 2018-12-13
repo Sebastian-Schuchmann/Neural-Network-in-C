@@ -1,0 +1,12 @@
+/Users/seppi/Projects/Perceptron/Perceptron/bin/Debug/netcoreapp2.0/Perceptron.deps.json
+/Users/seppi/Projects/Perceptron/Perceptron/bin/Debug/netcoreapp2.0/Perceptron.runtimeconfig.json
+/Users/seppi/Projects/Perceptron/Perceptron/bin/Debug/netcoreapp2.0/Perceptron.runtimeconfig.dev.json
+/Users/seppi/Projects/Perceptron/Perceptron/bin/Debug/netcoreapp2.0/Perceptron.dll
+/Users/seppi/Projects/Perceptron/Perceptron/bin/Debug/netcoreapp2.0/Perceptron.pdb
+/Users/seppi/Projects/Perceptron/Perceptron/obj/Debug/netcoreapp2.0/Perceptron.csprojResolveAssemblyReference.cache
+/Users/seppi/Projects/Perceptron/Perceptron/obj/Debug/netcoreapp2.0/Perceptron.csproj.CoreCompileInputs.cache
+/Users/seppi/Projects/Perceptron/Perceptron/obj/Debug/netcoreapp2.0/Perceptron.AssemblyInfoInputs.cache
+/Users/seppi/Projects/Perceptron/Perceptron/obj/Debug/netcoreapp2.0/Perceptron.AssemblyInfo.cs
+/Users/seppi/Projects/Perceptron/Perceptron/obj/Debug/netcoreapp2.0/Perceptron.dll
+/Users/seppi/Projects/Perceptron/Perceptron/obj/Debug/netcoreapp2.0/Perceptron.pdb
+/Users/seppi/Projects/Perceptron/Perceptron/bin/Debug/netcoreapp2.0/Accord.dll.config
