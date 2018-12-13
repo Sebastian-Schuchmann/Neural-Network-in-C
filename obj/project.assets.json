@@ -858,11 +858,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/seppi/Projects/Perceptron/Perceptron/NeuralNetwork.csproj",
+      "projectUniqueName": "/Users/seppi/Neural-Network-in-C-Sharp/NeuralNetwork.csproj",
       "projectName": "NeuralNetwork",
-      "projectPath": "/Users/seppi/Projects/Perceptron/Perceptron/NeuralNetwork.csproj",
+      "projectPath": "/Users/seppi/Neural-Network-in-C-Sharp/NeuralNetwork.csproj",
       "packagesPath": "/Users/seppi/.nuget/packages/",
-      "outputPath": "/Users/seppi/Projects/Perceptron/Perceptron/obj",
+      "outputPath": "/Users/seppi/Neural-Network-in-C-Sharp/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
