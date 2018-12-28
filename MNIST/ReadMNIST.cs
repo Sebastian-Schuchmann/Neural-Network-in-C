@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using Accord.Math;
 
     class MNIST
     {
@@ -57,8 +58,13 @@ using System.IO;
                     DigitImage dImage =
                       new DigitImage(pixels, lbl);
 
-                if(Visualize)
+                dImage.pixelsDbl = dImage.ToDouble();
+
+                if (Visualize)
+                {
                     Console.WriteLine(dImage.ToString());
+                    Console.WriteLine(dImage.ToDouble().ToString<double>());
+                }
 
                 trainingData.Add(dImage);
                    // Console.ReadLine();
@@ -71,6 +77,7 @@ using System.IO;
 
             Console.WriteLine("\nLoaded " + trainingData.Count + " Elements");
                 Console.WriteLine("\nCompleted\n");
+
 
             return trainingData;
             }
@@ -85,9 +92,11 @@ using System.IO;
     } // Program
 
     public class DigitImage
-    {
+    {    
         public byte[][] pixels;
-        public byte label;
+        public double[][] pixelsDbl;
+        public string label;
+        public double[] labelDbl;
 
         public DigitImage(byte[][] pixels,
           byte label)
@@ -100,8 +109,28 @@ using System.IO;
                 for (int j = 0; j < 28; ++j)
                     this.pixels[i][j] = pixels[i][j];
 
-            this.label = label;
+        this.label = label.ToString();
+        labelDbl = GenerateLabel(this.label);
         }
+
+    public double[] GenerateLabel(string Label){
+        int labelInt = int.Parse(Label);
+
+        var outputs = new double[][]{
+            new double[]{1,0,0,0,0,0,0,0,0,0, 0, 0, 0, 0},
+            new double[]{0,1,0,0,0,0,0,0,0,0, 0, 0, 0, 0},
+            new double[]{0,0,1,0,0,0,0,0,0,0, 0, 0, 0, 0},
+            new double[]{0,0,0,1,0,0,0,0,0,0, 0, 0, 0, 0},
+            new double[]{0,0,0,0,1,0,0,0,0,0, 0, 0, 0, 0},
+            new double[]{0,0,0,0,0,1,0,0,0,0, 0, 0, 0, 0},
+            new double[]{0,0,0,0,0,0,1,0,0,0, 0, 0, 0, 0},
+            new double[]{0,0,0,0,0,0,0,1,0,0, 0, 0, 0, 0},
+            new double[]{0,0,0,0,0,0,0,0,1,0, 0, 0, 0, 0},
+            new double[]{0,0,0,0,0,0,0,0,0,1, 0, 0, 0, 0},
+        };
+
+        return outputs[labelInt];
+    }
 
         public override string ToString()
         {
@@ -122,5 +151,24 @@ using System.IO;
             s += this.label.ToString();
             return s;
         } // ToString
+
+    public double[][] ToDouble(){
+        
+        var val = new double[28][];
+        for (int i = 0; i < val.Length; ++i)
+            val[i] = new double[28];
+
+        for (int i = 0; i < 28; ++i)
+        {
+            for (int j = 0; j < 28; ++j)
+            {
+                val[i][j] = pixels[i][j]/255.0;
+            }
+      
+        }
+
+        return val;
+    }
+
 
     }
