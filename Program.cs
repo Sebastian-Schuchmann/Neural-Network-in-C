@@ -14,9 +14,9 @@ namespace NeuralNetwork
             Accord.Math.Random.Generator.Seed = 4;
 
             //Input, Hidden, Output
-          // NeuralNet NN = new NeuralNet(28*28, 512, 14);
+            //NeuralNet NN = new NeuralNet(28*28, 512, 14);
 
-            NeuralNet NN = new NeuralNet(2, 8, 1);
+            NeuralNet NN = new NeuralNet(2, 32, 1);
             //NN.Train(TrainingData, 0.1);
             TrainXORTest(NN);
         }
@@ -42,9 +42,6 @@ namespace NeuralNetwork
 
     class NeuralNet
     {
-
-  
-
         double[,] WeightsInputHidden;
         double[,] WeightsHiddenOutput;
 

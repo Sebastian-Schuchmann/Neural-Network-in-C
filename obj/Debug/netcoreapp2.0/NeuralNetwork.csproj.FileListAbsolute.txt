@@ -28,9 +28,9 @@
 /Users/seppi/Neural-Network-in-C-Sharp/bin/Debug/netcoreapp2.0/NeuralNetwork.runtimeconfig.dev.json
 /Users/seppi/Neural-Network-in-C-Sharp/bin/Debug/netcoreapp2.0/NeuralNetwork.dll
 /Users/seppi/Neural-Network-in-C-Sharp/bin/Debug/netcoreapp2.0/NeuralNetwork.pdb
-/Users/seppi/Neural-Network-in-C-Sharp/obj/Debug/netcoreapp2.0/NeuralNetwork.csprojResolveAssemblyReference.cache
 /Users/seppi/Neural-Network-in-C-Sharp/obj/Debug/netcoreapp2.0/NeuralNetwork.csproj.CoreCompileInputs.cache
 /Users/seppi/Neural-Network-in-C-Sharp/obj/Debug/netcoreapp2.0/NeuralNetwork.AssemblyInfoInputs.cache
 /Users/seppi/Neural-Network-in-C-Sharp/obj/Debug/netcoreapp2.0/NeuralNetwork.AssemblyInfo.cs
 /Users/seppi/Neural-Network-in-C-Sharp/obj/Debug/netcoreapp2.0/NeuralNetwork.dll
 /Users/seppi/Neural-Network-in-C-Sharp/obj/Debug/netcoreapp2.0/NeuralNetwork.pdb
+/Users/seppi/Neural-Network-in-C-Sharp/obj/Debug/netcoreapp2.0/NeuralNetwork.csprojAssemblyReference.cache
